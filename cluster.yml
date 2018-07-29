@@ -1,0 +1,9 @@
+nodes:
+    - address: usefulk8s
+      user: boss
+      ssh_key_path: ~/.ssh/id_rsa.1
+      role:
+        - controlplane
+        - etcd
+        - worker
+ignore_docker_version: true
